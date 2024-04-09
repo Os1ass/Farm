@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\FileHandler">
+      <UniqueIdentifier>{9bcc17f4-3ed1-42f0-89c6-e112926bf18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\User">
+      <UniqueIdentifier>{a4606615-bf4f-4cfe-880c-4ed227d155dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FileHandler">
+      <UniqueIdentifier>{9e99987d-0fe1-409b-88d3-3d149a7f4a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\User">
+      <UniqueIdentifier>{4c94502d-d3dc-4eec-97bc-35e45bc6523a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kkr.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Purchase.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.cpp">
+      <Filter>Исходные файлы\FileHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountantFileHandler.cpp">
+      <Filter>Исходные файлы\FileHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerFileHandler.cpp">
+      <Filter>Исходные файлы\FileHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Accountant.cpp">
+      <Filter>Исходные файлы\User</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Исходные файлы\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Исходные файлы\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>Исходные файлы\User</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectorFileHandler.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Purchase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandler.h">
+      <Filter>Файлы заголовков\FileHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountantFileHandler.h">
+      <Filter>Файлы заголовков\FileHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerFileHandler.h">
+      <Filter>Файлы заголовков\FileHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Файлы заголовков\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Accountant.h">
+      <Filter>Файлы заголовков\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Файлы заголовков\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>Файлы заголовков\User</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectorFileHandler.h">
+      <Filter>Файлы заголовков\FileHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
